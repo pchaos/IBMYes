@@ -131,7 +131,7 @@ EOF
 }
 read -p "请输入你的应用地区(默认eu-gb伦敦)：" IBM_LOCATION
 if [ -z "${IBM_LOCATION}" ];then
-IBM_LOCATION="eu-github"
+IBM_LOCATION="eu-gb"
 fi
 echo "地区：${IBM_LOCATION}"
 
